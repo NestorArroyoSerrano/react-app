@@ -4,6 +4,6 @@ import { ProductApp } from './components/ProductApp.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ProductApp />
+    <ProductApp title={'Lista de productos!'}/>
   </React.StrictMode>,
 );
